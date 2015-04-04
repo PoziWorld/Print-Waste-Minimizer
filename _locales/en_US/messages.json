@@ -1,0 +1,17 @@
+{
+  "lang": {
+    "message": "en"
+  }
+  ,
+  "extensionName": {
+    "message": "Print Waste Minimizer"
+  }
+  ,
+  "extensionDescription": {
+    "message": "Go Green! Minimize print waste, save ink. | Only Amazon Print Return Label pages supported now."
+  }
+  ,
+  "toggleTitle": {
+    "message": "Click to toggle Print Waste Minimizer"
+  }
+}

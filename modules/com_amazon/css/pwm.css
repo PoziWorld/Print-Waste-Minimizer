@@ -1,0 +1,41 @@
+/* Toggle */
+
+#pwmExtensionToggleCta {
+  position: fixed !important;
+  top: 20px !important;
+  right: 20px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 16px !important;
+  height: 16px !important;
+  background: transparent url(chrome-extension://__MSG_@@extension_id__/global/img/pwm-icon-16.png) no-repeat !important;
+  border: 0 !important;
+  box-sizing: content-box !important;
+  cursor: pointer !important;
+  outline: none !important;
+}
+
+/* General */
+
+.pwmExtensionActive .no-print,
+.pwmExtensionActive #returnDeadlineDisplay,
+.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(4),
+.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(5),
+.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(6) h3,
+.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(6) .a-section:nth-of-type(1),
+.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(7) h3,
+.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(7) .a-section:nth-of-type(1),
+
+/* Hazmat Label not found */
+
+.pwmExtensionHazmatLabelNotFound.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(7) .a-divider-normal,
+
+/* Hazmat Label found */
+
+.pwmExtensionHazmatLabelFound.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(8) h3,
+.pwmExtensionHazmatLabelFound.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(8) .a-section:nth-of-type(1),
+.pwmExtensionHazmatLabelFound.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(9) h3,
+.pwmExtensionHazmatLabelFound.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(9) .a-section:nth-of-type(1),
+.pwmExtensionHazmatLabelFound.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(9) .a-divider-normal {
+  display: none !important;
+}
