@@ -1,0 +1,5 @@
+/* General */
+
+.pwmExtensionActive [hptype="photo"] {
+  display: none !important;
+}

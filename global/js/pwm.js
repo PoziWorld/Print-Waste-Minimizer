@@ -1,14 +1,9 @@
-// General
-var strActiveClass = 'pwmExtensionActive';
+var
+    // Will be used later
+    strActiveClass  = 'pwmExtensionActive'
+    // Create a Toggle
+  , $toggle         = document.createElement( 'button' )
+  ;
 
-// Create a Toggle
-var $toggle = document.createElement( 'button' );
-
-$toggle.id = 'pwmExtensionToggleCta';
-$toggle.title = chrome.i18n.getMessage( 'toggleTitle' );
-$toggle.onclick = function() {
-  document.body.classList.toggle( strActiveClass )
-};
-
-// Append the Toggle to the page
-document.body.appendChild( $toggle );
+$toggle.id          = 'pwmExtensionToggleCta';
+$toggle.title       = chrome.i18n.getMessage( 'toggleTitle' );

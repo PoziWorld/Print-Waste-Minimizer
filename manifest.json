@@ -5,7 +5,7 @@
   , "default_locale"            : "en_US"
   , "name"                      : "__MSG_extensionName__"
   , "description"               : "__MSG_extensionDescription__"
-  , "version"                   : "0.1.1"
+  , "version"                   : "0.2"
 
   , "short_name"                : "PWM"
   , "author"                    : "PoziWorld"
@@ -20,6 +20,7 @@
   , "permissions"               : [
         "tabs"
       , "*://*.amazon.com/returns/label/"
+      , "*://*.pb.com/images/USPS/HTMLFolders/HTML10/"
     ]
 
   , "content_scripts"           : [
@@ -30,7 +31,21 @@
               , "modules/com_amazon/js/pwm.js"
             ]
           , "css"                : [
-                "modules/com_amazon/css/pwm.css"
+                "global/css/pwm.css"
+              , "modules/com_amazon/css/pwm.css"
+            ]
+          , "run_at"            : "document_end"
+        }
+      , {
+            "all_frames"        : true
+          , "matches"           : [ "*://*.pb.com/images/USPS/HTMLFolders/HTML10/*" ]
+          , "js"                : [
+                "global/js/pwm.js"
+              , "modules/com_pb/js/pwm.js"
+            ]
+          , "css"                : [
+                "global/css/pwm.css"
+              , "modules/com_pb/css/pwm.css"
             ]
           , "run_at"            : "document_end"
         }

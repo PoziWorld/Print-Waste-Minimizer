@@ -19,4 +19,13 @@ if ( boolFound ) {
   strClass = strFoundClass
 }
 
-document.body.classList.add( strActiveClass, strClass );
+var $pageFirstChild = document.body;
+
+$pageFirstChild.classList.add( strActiveClass, strClass );
+
+// Append the Toggle to the page
+$pageFirstChild.appendChild( $toggle );
+
+$toggle.onclick = function() {
+  $pageFirstChild.classList.toggle( strActiveClass );
+};
