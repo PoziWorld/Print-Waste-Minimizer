@@ -1,24 +1,40 @@
 /* General */
 
-.pwmExtensionActive .no-print,
-.pwmExtensionActive #returnDeadlineDisplay,
-.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(4),
-.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(5),
-.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(6) h3,
-.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(6) .a-section:nth-of-type(1),
-.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(7) h3,
-.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(7) .a-section:nth-of-type(1),
+  .pwmExtensionActive .no-print
+, .pwmExtensionActive #returnDeadlineDisplay
+
+/* Snail Mail Section found */
+
+, .pwmExtensionActive.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(4)
+, .pwmExtensionActive.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(5)
+, .pwmExtensionActive.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(6) h3
+, .pwmExtensionActive.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(6) .a-section:nth-of-type(1)
+, .pwmExtensionActive.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(7) h3
+, .pwmExtensionActive.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(7) .a-section:nth-of-type(1)
+
+/* Snail Mail Section not found */
+
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(3)
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(4)
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(5) h3
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(5) .a-section:nth-of-type(1)
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(6) h3
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(6) .a-section:nth-of-type(1)
 
 /* Hazmat Label not found */
 
-.pwmExtensionHazmatLabelNotFound.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(7) .a-divider-normal,
+, .pwmExtensionActive.pwmExtHazmatLabelNotFound.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(7) .a-divider-normal
+
+, .pwmExtensionActive.pwmExtHazmatLabelNotFound.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(6) .a-divider-normal
 
 /* Hazmat Label found */
 
-.pwmExtensionHazmatLabelFound.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(8) h3,
-.pwmExtensionHazmatLabelFound.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(8) .a-section:nth-of-type(1),
-.pwmExtensionHazmatLabelFound.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(9) h3,
-.pwmExtensionHazmatLabelFound.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(9) .a-section:nth-of-type(1),
-.pwmExtensionHazmatLabelFound.pwmExtensionActive #pageContentContainer > .a-section:nth-of-type(9) .a-divider-normal {
+, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer > .a-section:nth-of-type(8) h3
+, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer > .a-section:nth-of-type(8) .a-section:nth-of-type(1)
+, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer > .a-section:nth-of-type(9) h3
+, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer > .a-section:nth-of-type(9) .a-section:nth-of-type(1)
+, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer > .a-section:nth-of-type(9) .a-divider-normal
+
+{
   display: none !important;
 }

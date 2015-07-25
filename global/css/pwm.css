@@ -4,13 +4,22 @@
   position: fixed !important;
   top: 20px !important;
   right: 20px !important;
-  padding: 0 !important;
+  padding: 5px !important;
   margin: 0 !important;
   width: 16px !important;
   height: 16px !important;
-  background: transparent url(chrome-extension://__MSG_@@extension_id__/global/img/pwm-icon-16.png) no-repeat !important;
-  border: 0 !important;
+  background: #fff url(chrome-extension://__MSG_@@extension_id__/global/img/pwm-icon-16.png) center no-repeat !important;
+  border: 1px dashed #ccc !important;
+  border-radius: 100% !important;
   box-sizing: content-box !important;
+  box-shadow: 0 0 5px 0 rgba( 150, 150, 150, .5 ) !important;
   cursor: pointer !important;
   outline: none !important;
+}
+#pwmExtensionToggleCta:hover {
+  border-color: #999 !important;
+}
+#pwmExtensionToggleCta:active {
+  border-color: #555 !important;
+  box-shadow: 0 0 2px 0 rgba( 0, 0, 0, .5 ) !important;
 }
