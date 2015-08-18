@@ -1,0 +1,59 @@
+/* UPS */
+
+.pwmExtensionActive #upsContainer {
+  border: 0 !important;
+}
+
+  .pwmExtensionActive #upsLabelImage
+, .pwmExtensionActive #upsLabelImage img
+{
+  margin: 0 !important;
+  height: auto !important;
+  border: 0 !important;
+}
+
+  .pwmExtensionActive #upsContainer > p
+, .pwmExtensionActive .bodyLogo
+, .pwmExtensionActive #instructionContainer
+{
+  display: none !important;
+}
+
+@media print {
+
+  .pwmExtensionActive .brand-bar {
+    display: none !important;
+  }
+
+  .pwmExtensionActive #bodyContainer {
+    padding-top: 0 !important;
+  }
+
+  .pwmExtensionActive .universalSectionContainer {
+    padding: 0 !important;
+  }
+
+  .pwmExtensionActive #shippingPrintUPS {
+    margin: 0 !important;
+  }
+
+  .pwmExtensionActive #upsContainer {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+
+/* USPS */
+
+  .pwmExtensionActive .Scissorline
+, .pwmExtensionActive .ReturnInstructions
+{
+  display: none !important;
+}
+
+@media print {
+
+  .pwmExtensionActive .InstructionFooter {
+    display: none !important;
+  }
+}

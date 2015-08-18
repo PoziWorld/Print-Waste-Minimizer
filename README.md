@@ -9,6 +9,7 @@ Go Green on
 
 * Amazon Print Return Label pages.
 * eBay Print Shipping/Postal Label pages.
+* (NEW!) Old Navy Returns Label pages.
 
 
 Credits
