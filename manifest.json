@@ -5,7 +5,7 @@
   , "default_locale"            : "en_US"
   , "name"                      : "__MSG_extensionName__"
   , "description"               : "__MSG_extensionDescription__"
-  , "version"                   : "0.2.3"
+  , "version"                   : "0.2.4"
 
   , "short_name"                : "PWM"
   , "author"                    : "PoziWorld"
@@ -21,7 +21,7 @@
         "tabs"
       , "*://*.amazon.com/returns/label/"
       , "*://*.pb.com/images/USPS/HTMLFolders/HTML10/"
-      , "*://secure-oldnavy.gap.com/profile/returns_label.do"
+      , "*://secure-oldnavy.gap.com/profile/returns_label*"
       , "*://www.shipmentmanager.com/printweblabel.aspx"
     ]
 
@@ -52,7 +52,7 @@
           , "run_at"            : "document_end"
         }
       , {
-            "matches"           : [ "*://secure-oldnavy.gap.com/profile/returns_label.do*" ]
+            "matches"           : [ "*://secure-oldnavy.gap.com/profile/returns_label*" ]
           , "js"                : [
                 "global/js/pwm.js"
               , "modules/com_gap_secure-oldnavy/js/pwm.js"

@@ -6,24 +6,26 @@
 
   .pwmExtensionActive #upsLabelImage
 , .pwmExtensionActive #upsLabelImage img
-{
-  margin: 0 !important;
-  height: auto !important;
-  border: 0 !important;
-}
+  {
+    margin: 0 !important;
+    height: auto !important;
+    border: 0 !important;
+  }
 
   .pwmExtensionActive #upsContainer > p
 , .pwmExtensionActive .bodyLogo
 , .pwmExtensionActive #instructionContainer
-{
-  display: none !important;
-}
+  {
+    display: none !important;
+  }
 
 @media print {
 
-  .pwmExtensionActive .brand-bar {
-    display: none !important;
-  }
+    .pwmExtensionActive #wcd_responsive_promo_wrap
+  , .pwmExtensionActive .brand-bar
+    {
+      display: none !important;
+    }
 
   .pwmExtensionActive #bodyContainer {
     padding-top: 0 !important;
@@ -47,8 +49,15 @@
 
   .pwmExtensionActive .Scissorline
 , .pwmExtensionActive .ReturnInstructions
-{
-  display: none !important;
+, .pwmExtensionActive #uspsLabelImage + p
+  {
+    display: none !important;
+  }
+.pwmExtensionActive #uspsContainer {
+  border: 0 !important;
+}
+.pwmExtensionActive #uspsLabelImage {
+  margin-left: 0 !important;
 }
 
 @media print {
