@@ -5,11 +5,11 @@
   , "default_locale"            : "en_US"
   , "name"                      : "__MSG_extensionName__"
   , "description"               : "__MSG_extensionDescription__"
-  , "version"                   : "0.2.4"
+  , "version"                   : "0.2.5"
 
   , "short_name"                : "PWM"
   , "author"                    : "PoziWorld"
-  , "homepage_url"              : "https://poziworld.com/"
+  , "homepage_url"              : "http://poziworld.com/"
 
   , "icons"                     : {
         "16"                    : "global/img/pwm-icon-16.png"

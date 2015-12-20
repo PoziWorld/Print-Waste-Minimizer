@@ -35,6 +35,13 @@
 , .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer > .a-section:nth-of-type(9) .a-section:nth-of-type(1)
 , .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer > .a-section:nth-of-type(9) .a-divider-normal
 
-{
-  display: none !important;
-}
+, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer p
+, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer h3
+, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer span
+, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer hr
+, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer .a-divider-inner
+, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer .a-vertical
+
+  {
+    display: none !important;
+  }
