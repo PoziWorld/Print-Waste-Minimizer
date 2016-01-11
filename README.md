@@ -9,7 +9,7 @@ Go Green
 
 When printing return/shipping/postal labels on:
 
-* Amazon
+* Amazon (amazon.com)
 * eBay
 * Old Navy
 * (NEW!) Return Saver
