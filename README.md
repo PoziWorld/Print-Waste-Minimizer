@@ -1,11 +1,13 @@
-Print Waste Minimizer ![Print Waste Minimizer](/global/img/pwm-icon-48.png)
+Print Waste Minimizer <img src="/global/img/pwm-icon-48.png" width="48" height="48" alt="Print Waste Minimizer">
 =======
 
 An extension for the Google Chrome, Opera, and other Chromium-based browsers that helps you minimize print waste, save ink.
 
 
-Go Green when printing return/shipping/postal labels
+Go Green
 --------
+
+When printing return/shipping/postal labels on:
 
 * Amazon
 * eBay
