@@ -5,35 +5,62 @@
 
 /* Snail Mail Section found */
 
-, .pwmExtensionActive.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(4)
-, .pwmExtensionActive.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(5)
-, .pwmExtensionActive.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(6) h3
-, .pwmExtensionActive.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(6) .a-section:nth-of-type(1)
-, .pwmExtensionActive.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(7) h3
-, .pwmExtensionActive.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(7) .a-section:nth-of-type(1)
+  /* Snail Mail Section found. Single package */
+
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(4)
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(5)
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(6) h3
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(6) .a-section:nth-of-type(1)
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(7) h3
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(7) .a-section:nth-of-type(1)
+
+  /* Snail Mail Section found. Multiple packages */
+
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-spacing-medium.a-divider-normal
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesFound #pageContentContainer > h3
+
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+4)
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+5)
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+6) h3
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+6) .a-section:nth-of-type(1)
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+7) h3
+, .pwmExtensionActive.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+7) .a-section:nth-of-type(1)
 
 /* Snail Mail Section not found */
 
-, .pwmExtensionActive.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(3)
-, .pwmExtensionActive.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(4)
-, .pwmExtensionActive.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(5) h3
-, .pwmExtensionActive.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(5) .a-section:nth-of-type(1)
-, .pwmExtensionActive.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(6) h3
-, .pwmExtensionActive.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(6) .a-section:nth-of-type(1)
+  /* Snail Mail Section not found. Single package */
+
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(3)
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(4)
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(5) h3
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(5) .a-section:nth-of-type(1)
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(6) h3
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(6) .a-section:nth-of-type(1)
+
+  /* Snail Mail Section not found. Multiple packages */
+
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+3)
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+4)
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+5) h3
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+5) .a-section:nth-of-type(1)
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+6) h3
+, .pwmExtensionActive.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+6) .a-section:nth-of-type(1)
 
 /* Hazmat Label not found */
 
-, .pwmExtensionActive.pwmExtHazmatLabelNotFound.pwmExtSnailMailSectionFound #pageContentContainer > .a-section:nth-of-type(7) .a-divider-normal
+  /* Hazmat Label not found. Single package */
 
-, .pwmExtensionActive.pwmExtHazmatLabelNotFound.pwmExtSnailMailSectionNotFound #pageContentContainer > .a-section:nth-of-type(6) .a-divider-normal
+, .pwmExtensionActive.pwmExtHazmatLabelNotFound.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(7) .a-divider-normal
+
+, .pwmExtensionActive.pwmExtHazmatLabelNotFound.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(6) .a-divider-normal
+
+  /* Hazmat Label not found. Multiple packages */
+
+, .pwmExtensionActive.pwmExtHazmatLabelNotFound.pwmExtSnailMailSectionFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+7) .a-divider-normal
+
+, .pwmExtensionActive.pwmExtHazmatLabelNotFound.pwmExtSnailMailSectionNotFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+6) .a-divider-normal
 
 /* Hazmat Label found */
-
-, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer > .a-section:nth-of-type(8) h3
-, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer > .a-section:nth-of-type(8) .a-section:nth-of-type(1)
-, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer > .a-section:nth-of-type(9) h3
-, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer > .a-section:nth-of-type(9) .a-section:nth-of-type(1)
-, .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer > .a-section:nth-of-type(9) .a-divider-normal
 
 , .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer p
 , .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer h3
@@ -41,6 +68,22 @@
 , .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer hr
 , .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer .a-divider-inner
 , .pwmExtensionActive.pwmExtHazmatLabelFound #pageContentContainer .a-vertical
+
+  /* Hazmat Label found. Single package */
+
+, .pwmExtensionActive.pwmExtHazmatLabelFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(8) h3
+, .pwmExtensionActive.pwmExtHazmatLabelFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(8) .a-section:nth-of-type(1)
+, .pwmExtensionActive.pwmExtHazmatLabelFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(9) h3
+, .pwmExtensionActive.pwmExtHazmatLabelFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(9) .a-section:nth-of-type(1)
+, .pwmExtensionActive.pwmExtHazmatLabelFound.pwmExtMultiplePackagesNotFound #pageContentContainer > .a-section:nth-of-type(9) .a-divider-normal
+
+  /* Hazmat Label found. Multiple packages */
+
+, .pwmExtensionActive.pwmExtHazmatLabelFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+8) h3
+, .pwmExtensionActive.pwmExtHazmatLabelFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+8) .a-section:nth-of-type(1)
+, .pwmExtensionActive.pwmExtHazmatLabelFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+9) h3
+, .pwmExtensionActive.pwmExtHazmatLabelFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+9) .a-section:nth-of-type(1)
+, .pwmExtensionActive.pwmExtHazmatLabelFound.pwmExtMultiplePackagesFound #pageContentContainer > .a-section:nth-of-type(6n+9) .a-divider-normal
 
   {
     display: none !important;

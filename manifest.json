@@ -5,11 +5,11 @@
   , "default_locale"            : "en_US"
   , "name"                      : "__MSG_extensionName__"
   , "description"               : "__MSG_extensionDescription__"
-  , "version"                   : "0.2.6"
+  , "version"                   : "0.2.7"
 
   , "short_name"                : "PWM"
   , "author"                    : "PoziWorld"
-  , "homepage_url"              : "http://poziworld.com/"
+  , "homepage_url"              : "https://printwasteminimizer.com/"
 
   , "icons"                     : {
         "16"                    : "global/img/pwm-icon-16.png"
