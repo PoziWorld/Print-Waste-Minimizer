@@ -5,7 +5,7 @@
   , "default_locale"            : "en_US"
   , "name"                      : "__MSG_extensionName__"
   , "description"               : "__MSG_extensionDescription__"
-  , "version"                   : "0.2.8"
+  , "version"                   : "0.2.9"
 
   , "short_name"                : "PWM"
   , "author"                    : "PoziWorld"
@@ -24,6 +24,7 @@
       , "*://secure-oldnavy.gap.com/profile/returns_label*"
       , "*://www.shipmentmanager.com/printweblabel.aspx"
       , "*://*.returnsaver.com/returnlabel/*abel*"
+      , "*://www.ups.com/u.a/L.class?*"
     ]
 
   , "content_scripts"           : [
@@ -77,7 +78,7 @@
           , "run_at"            : "document_end"
         }
       , {
-            "matches"           : [ "*://*.returnsaver.com/returnlabel/*abel*" ]
+            "matches"           : [ "*://*.returnsaver.com/*eturn*abel/*abel*" ]
           , "js"                : [
                 "global/js/pwm.js"
               , "modules/com_returnsaver/js/pwm.js"
@@ -85,6 +86,18 @@
           , "css"                : [
                 "global/css/pwm.css"
               , "modules/com_returnsaver/css/pwm.css"
+            ]
+          , "run_at"            : "document_end"
+        }
+      , {
+            "matches"           : [ "*://www.ups.com/u.a/L.class?*" ]
+          , "js"                : [
+                "global/js/pwm.js"
+              , "modules/com_ups/js/pwm.js"
+            ]
+          , "css"                : [
+                "global/css/pwm.css"
+              , "modules/com_ups/css/pwm.css"
             ]
           , "run_at"            : "document_end"
         }

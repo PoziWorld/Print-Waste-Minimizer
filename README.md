@@ -13,6 +13,7 @@ When printing return/shipping/postal labels on:
 * eBay
 * Old Navy
 * Return Saver
+* (NEW!) UPS
 
 
 Credits
