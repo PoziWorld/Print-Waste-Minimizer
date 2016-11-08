@@ -15,6 +15,15 @@ When printing return/shipping/postal labels on:
 * Return Saver
 * (NEW!) UPS (ups.com)
 
+### Supported URL masks:
+
+* `*://*.amazon.com/returns/label/`
+* `*://*.pb.com/images/USPS/HTMLFolders/HTML10/`
+* `*://secure-oldnavy.gap.com/profile/returns_label*`
+* `*://www.shipmentmanager.com/printweblabel.aspx`
+* `*://*.returnsaver.com/returnlabel/*abel*`
+* `*://www.ups.com/u.a/L.class?*`
+
 
 Credits
 --------
