@@ -2,6 +2,7 @@
 
 #pwmExtensionToggleCta {
   position: fixed !important;
+  z-index: 2147483646; /* Higher than SwagButton extension banner */
   top: 20px !important;
   right: 20px !important;
   padding: 5px !important;
@@ -22,6 +23,13 @@
 #pwmExtensionToggleCta:active {
   border-color: #555 !important;
   box-shadow: 0 0 2px 0 rgba( 0, 0, 0, .5 ) !important;
+}
+
+/* SwagButton extension banner and modal */
+
+.pwmExtensionActive + #popUpSEToolbar,
+.pwmExtensionActive + #popUpSEToolbar + #SESpecialTerms {
+  display: none !important;
 }
 
 @media print {
