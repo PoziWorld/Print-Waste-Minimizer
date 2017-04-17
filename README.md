@@ -13,11 +13,12 @@ When printing return/shipping/postal labels on:
 * eBay
 * Old Navy
 * Return Saver
-* (NEW!) UPS (ups.com)
+* UPS (ups.com)
 
 ### Supported URL masks:
 
 * `*://*.amazon.com/returns/label/`
+* `*://*.ebay.*/rtn/*eturn/*tn*rint*hipping*abel*`
 * `*://*.pb.com/images/USPS/HTMLFolders/HTML10/`
 * `*://secure-oldnavy.gap.com/profile/returns_label*`
 * `*://www.shipmentmanager.com/printweblabel.aspx`
