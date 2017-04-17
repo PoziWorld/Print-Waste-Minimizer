@@ -1,0 +1,38 @@
+/* Header logo */
+.pwmExtensionActive #gh,
+/* Header note */
+.pwmExtensionActive .pr-hd.mediaHdr,
+/* Label being created placeholder */
+.pwmExtensionActive .cr-w,
+/* Packing slip top border */
+.pwmExtensionActive .sldLn.mdPckLn,
+/* Packing slip bottom border */
+.pwmExtensionActive .sldLn.mdPckLnNonDisplay,
+/* Packing slip note */
+.pwmExtensionActive .mdCut.cutPaste,
+/* Instructions container */
+.pwmExtensionActive .rtnItmFlwDv.mdPckPad,
+/* Limitations */
+.pwmExtensionActive .shpInf.mdShpInf {
+  display: none !important;
+}
+
+/* Override margin-top set by SwagButton extension */
+body.pwmExtensionActive {
+  margin-top: 0 !important;
+}
+
+/* Label image container */
+.pwmExtensionActive .medAddL.prAdl {
+  padding: 0;
+}
+
+/* Label image */
+.pwmExtensionActive #prLblImgTag {
+  margin: -50px 0 0 -25px;
+}
+
+/* Packing slip */
+.pwmExtensionActive .pckSlipContainer {
+  margin: -50px 0 0 100px;
+}

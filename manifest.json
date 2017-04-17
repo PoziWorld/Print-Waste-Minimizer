@@ -20,6 +20,25 @@
   , "permissions"               : [
         "tabs"
       , "*://*.amazon.com/returns/label/"
+      , "*://*.ebay.at/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.be/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.ca/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.ch/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.co.uk/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.com/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.com.au/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.com.hk/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.com.my/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.com.sg/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.de/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.es/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.fr/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.ie/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.in/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.it/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.nl/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.ph/rtn/*eturn/*tn*rint*hipping*abel*"
+      , "*://*.ebay.pl/rtn/*eturn/*tn*rint*hipping*abel*"
       , "*://*.pb.com/images/USPS/HTMLFolders/HTML10/"
       , "*://secure-oldnavy.gap.com/profile/returns_label*"
       , "*://www.shipmentmanager.com/printweblabel.aspx"
@@ -39,6 +58,38 @@
               , "modules/com_amazon/css/pwm.css"
             ]
           , "run_at"            : "document_end"
+        }
+      , {
+            "matches" : [
+                "*://*.ebay.at/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.be/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.ca/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.ch/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.co.uk/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.com/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.com.au/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.com.hk/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.com.my/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.com.sg/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.de/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.es/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.fr/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.ie/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.in/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.it/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.nl/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.ph/rtn/*eturn/*tn*rint*hipping*abel*"
+              , "*://*.ebay.pl/rtn/*eturn/*tn*rint*hipping*abel*"
+            ]
+          , "js" : [
+                "global/js/pwm.js"
+              , "global/js/pwm-toggle.js"
+            ]
+          , "css" : [
+                "global/css/pwm.css"
+              , "modules/com_ebay/css/pwm.css"
+            ]
+          , "run_at" : "document_end"
         }
       , {
             "all_frames"        : true
