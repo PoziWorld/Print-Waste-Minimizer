@@ -26,6 +26,15 @@ When printing return/shipping/postal labels on:
 * `*://www.ups.com/u.a/L.class?*`
 
 
+Print Waste Minimizer on social networks
+--------
+
+- [Print Waste Minimizer on Twitter](https://twitter.com/PrintWasteMin)
+- [Print Waste Minimizer on Facebook](https://www.facebook.com/PrintWasteMinimizer)
+- [Print Waste Minimizer on Google+](https://plus.google.com/+PrintWasteMinimizer)
+- [Print Waste Minimizer on VK](https://vk.com/printwasteminimizer)
+
+
 Credits
 --------
 
