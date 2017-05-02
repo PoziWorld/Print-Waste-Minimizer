@@ -5,7 +5,7 @@
   , "default_locale"            : "en_US"
   , "name"                      : "__MSG_extensionName__"
   , "description"               : "__MSG_extensionDescription__"
-  , "version"                   : "0.2.10"
+  , "version"                   : "0.3.0"
 
   , "short_name"                : "PWM"
   , "author"                    : "PoziWorld"
@@ -20,6 +20,7 @@
   , "permissions"               : [
         "tabs"
       , "*://*.amazon.com/returns/label/"
+      , "*://*.amazon.com/gp/rental/your-account/features/list-return-rentals/"
       , "*://*.ebay.at/rtn/*eturn/*tn*rint*hipping*abel*"
       , "*://*.ebay.be/rtn/*eturn/*tn*rint*hipping*abel*"
       , "*://*.ebay.ca/rtn/*eturn/*tn*rint*hipping*abel*"
@@ -58,6 +59,20 @@
               , "modules/com_amazon/css/pwm.css"
             ]
           , "run_at"            : "document_end"
+        }
+      , {
+            "matches" : [
+                "*://*.amazon.com/gp/rental/your-account/features/list-return-rentals/*"
+            ]
+          , "js" : [
+                "global/js/pwm.js"
+              , "global/js/pwm-toggle.js"
+            ]
+          , "css" : [
+                "global/css/pwm.css"
+              , "modules/com_amazon/css/textbook-rentals.css"
+            ]
+          , "run_at" : "document_end"
         }
       , {
             "matches" : [

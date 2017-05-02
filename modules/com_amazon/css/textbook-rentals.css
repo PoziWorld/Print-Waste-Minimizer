@@ -1,0 +1,24 @@
+/* Page heading */
+.pwmExtensionActive #labelPageTop,
+/* Deadline note */
+.pwmExtensionActive #deadlineAlert,
+/* Instructions container */
+.pwmExtensionActive #instructionOuterBox,
+/* Cut/fold line */
+.pwmExtensionActive .table-dot-border,
+/* Slip */
+.pwmExtensionActive #pslipPageTop,
+/* Slip instructions */
+.pwmExtensionActive span.a-size-base,
+/* Dividers */
+.pwmExtensionActive .a-divider-normal,
+/* Misc. headings */
+.pwmExtensionActive .a-section > h1,
+.pwmExtensionActive .a-section > h2 {
+  display: none !important;
+}
+
+/* Don't split into two pages */
+.pwmExtensionActive .page-splitter {
+  page-break-before: initial;
+}
