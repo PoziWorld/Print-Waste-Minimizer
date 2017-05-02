@@ -18,6 +18,7 @@ When printing return/shipping/postal labels on:
 ### Supported URL masks:
 
 * `*://*.amazon.com/returns/label/`
+* `*://*.amazon.com/gp/rental/your-account/features/list-return-rentals/`
 * `*://*.ebay.*/rtn/*eturn/*tn*rint*hipping*abel*`
 * `*://*.pb.com/images/USPS/HTMLFolders/HTML10/`
 * `*://secure-oldnavy.gap.com/profile/returns_label*`
