@@ -43,4 +43,5 @@ Print Waste Minimizer on social networks
 Credits
 --------
 
-Print Waste Minimizer icon created by Thomas Helbig from the Noun Project.
+* Print Waste Minimizer icon created by Thomas Helbig from the Noun Project.
+* <sub>All trademarks mentioned belong to their owners, third party brands, product names, trade names, corporate names and company names mentioned may be trademarks of their respective owners or registered trademarks of other companies and are used for purposes of explanation and to the owner's benefit, without implying a violation of copyright law.</sub>
