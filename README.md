@@ -11,6 +11,7 @@ When printing return/shipping/postal labels on:
 
 * Amazon (amazon.com)
 * eBay
+* Nordstrom
 * Old Navy
 * Return Saver
 * UPS (ups.com)
@@ -21,6 +22,7 @@ When printing return/shipping/postal labels on:
 * `*://*.amazon.com/gp/rental/your-account/features/list-return-rentals/`
 * `*://*.ebay.*/rtn/*eturn/*tn*rint*hipping*abel*`
 * `*://*.pb.com/images/USPS/HTMLFolders/HTML10/`
+* `*://secure.nordstrom.com/*eturns*re*imple.aspx`
 * `*://secure-oldnavy.gap.com/profile/returns_label*`
 * `*://www.shipmentmanager.com/printweblabel.aspx`
 * `*://*.returnsaver.com/returnlabel/*abel*`

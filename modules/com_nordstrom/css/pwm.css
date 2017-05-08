@@ -1,0 +1,21 @@
+/* Header */
+.pwmExtensionActive #rfx-main-header,
+/* Page heading */
+.pwmExtensionActive #ctl00_mainContentPlaceHolder_ReturnsSimpleHeader,
+/* Back to order status */
+.pwmExtensionActive #LinkOrderStatusBack,
+/* Instructions container */
+.pwmExtensionActive #ir-left,
+/* Gift Returns form */
+.pwmExtensionActive #ir-gift-returns,
+/* Questions */
+.pwmExtensionActive #ir-questions,
+/* Footer */
+.pwmExtensionActive #rfx-main-footer {
+  display: none !important;
+}
+
+/* Gift Returns form */
+.pwmExtensionActive .pwmExtensionGiftReturnsFormShown#ir-gift-returns {
+  display: block !important;
+}
