@@ -1,0 +1,6 @@
+/* Cut/fold line */
+.pwmExtensionActive .Scissorline,
+/* Instructions container */
+.pwmExtensionActive .ReturnInstructions {
+  display: none !important;
+}

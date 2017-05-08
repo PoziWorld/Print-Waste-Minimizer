@@ -41,6 +41,7 @@
       , "*://*.ebay.ph/rtn/*eturn/*tn*rint*hipping*abel*"
       , "*://*.ebay.pl/rtn/*eturn/*tn*rint*hipping*abel*"
       , "*://*.pb.com/images/USPS/HTMLFolders/HTML10/"
+      , "*://returnscenter.smartlabel.com/v3/*rint*eb*abel.aspx"
       , "*://secure.nordstrom.com/*eturns*re*imple.aspx"
       , "*://secure-oldnavy.gap.com/profile/returns_label*"
       , "*://www.shipmentmanager.com/printweblabel.aspx"
@@ -132,6 +133,20 @@
           , "css" : [
                 "global/css/pwm.css"
               , "modules/com_nordstrom/css/pwm.css"
+            ]
+          , "run_at" : "document_end"
+        }
+      , {
+            "matches" : [
+                "*://returnscenter.smartlabel.com/v3/*rint*eb*abel.aspx*"
+            ]
+          , "js" : [
+                "global/js/pwm.js"
+              , "global/js/pwm-toggle.js"
+            ]
+          , "css" : [
+                "global/css/pwm.css"
+              , "modules/com_smartlabel/css/pwm.css"
             ]
           , "run_at" : "document_end"
         }
