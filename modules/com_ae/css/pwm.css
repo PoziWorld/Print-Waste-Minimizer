@@ -1,0 +1,21 @@
+/* Live chat */
+.pwmExtensionActive #MoxieFlyoutHolder,
+/* Cut/fold line */
+.pwmExtensionActive .cut-line,
+.pwmExtensionActive .cut-text,
+/* Instructions */
+.pwmExtensionActive .return-label-text,
+/* Thanks message */
+.pwmExtensionActive .thanks-msg {
+  display: none !important;
+}
+
+/* Override margin-top set by SwagButton extension */
+body.pwmExtensionActive {
+  margin-top: 0 !important;
+}
+
+/* Label wrapper */
+.pwmExtensionActive .return-label-wrapper {
+  margin: 0 auto;
+}

@@ -10,6 +10,7 @@ Go Green
 When printing return/shipping/postal labels on:
 
 * Amazon (amazon.com)
+* American Eagle (ae.com)
 * eBay
 * Newgistics SmartLabel
 * Nordstrom
@@ -21,6 +22,7 @@ When printing return/shipping/postal labels on:
 
 * `*://*.amazon.com/returns/label/`
 * `*://*.amazon.com/gp/rental/your-account/features/list-return-rentals/`
+* `*://*.ae.com/myaccount/order-history/return-label`
 * `*://*.ebay.*/rtn/*eturn/*tn*rint*hipping*abel*`
 * `*://*.pb.com/images/USPS/HTMLFolders/HTML10/`
 * `*://secure.nordstrom.com/*eturns*re*imple.aspx`
