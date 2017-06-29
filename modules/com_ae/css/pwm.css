@@ -1,8 +1,11 @@
 /* Live chat */
 .pwmExtensionActive #MoxieFlyoutHolder,
 /* Cut/fold line */
+.pwmExtensionActive .cut-icon,
 .pwmExtensionActive .cut-line,
 .pwmExtensionActive .cut-text,
+/* Print button */
+.pwmExtensionActive .btn-print,
 /* Instructions */
 .pwmExtensionActive .return-label-text,
 /* Thanks message */
