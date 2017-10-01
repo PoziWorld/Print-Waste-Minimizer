@@ -36,6 +36,7 @@ When printing return/shipping/postal labels on:
 Print Waste Minimizer on social networks
 --------
 
+- [Print Waste Minimizer on Telegram](https://t.me/PrintWasteMinimizer)
 - [Print Waste Minimizer on Twitter](https://twitter.com/PrintWasteMin)
 - [Print Waste Minimizer on Facebook](https://www.facebook.com/PrintWasteMinimizer)
 - [Print Waste Minimizer on Google+](https://plus.google.com/+PrintWasteMinimizer)
