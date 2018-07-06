@@ -9,7 +9,7 @@
   margin: 0 !important;
   width: 16px !important;
   height: 16px !important;
-  background: #fff url(chrome-extension://__MSG_@@extension_id__/global/img/pwm-icon-16.png) center no-repeat !important;
+  background: #fff center no-repeat !important;
   border: 1px dashed #ccc !important;
   border-radius: 100% !important;
   box-sizing: content-box !important;
