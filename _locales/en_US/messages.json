@@ -1,16 +1,16 @@
 {
   "lang": {
     "message": "en"
-  }
-  ,
+  },
+
   "extensionName": {
     "message": "Print Waste Minimizer"
-  }
-  ,
+  },
+
   "extensionDescription": {
     "message": "Minimize print waste, save ink on returns: Amazon, American Eagle, eBay, Nordstrom, SmartLabel, Old Navy, Return Saver, UPS, Zappos"
-  }
-  ,
+  },
+
   "toggleTitle": {
     "message": "Click to toggle Print Waste Minimizer"
   }
