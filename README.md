@@ -35,6 +35,12 @@ When printing return/shipping/postal labels on:
 * `*://www.zappos.com/returnLabel?*`
 
 
+Privacy
+--------
+
+This extension does not read, change, store, or transmit any of your personal data (e.g., logins, passwords, messages, contacts) from any of the sites or your computer in absolutely any form.
+
+
 Print Waste Minimizer on social networks
 --------
 
