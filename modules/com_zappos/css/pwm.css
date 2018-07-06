@@ -1,0 +1,6 @@
+.pwmExtensionActive .btnPrint,
+.pwmExtensionActive #returnHead,
+.pwmExtensionActive #returnHead ~ *:not( img )
+{
+  display: none !important;
+}

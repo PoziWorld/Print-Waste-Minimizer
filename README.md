@@ -17,6 +17,7 @@ When printing return/shipping/postal labels on:
 * Old Navy
 * Return Saver
 * UPS (ups.com)
+* Zappos
 
 ### Supported URL masks:
 
@@ -31,6 +32,7 @@ When printing return/shipping/postal labels on:
 * `*://www.shipmentmanager.com/printweblabel.aspx`
 * `*://*.returnsaver.com/returnlabel/*abel*`
 * `*://www.ups.com/u.a/L.class?*`
+* `*://www.zappos.com/returnLabel?*`
 
 
 Print Waste Minimizer on social networks

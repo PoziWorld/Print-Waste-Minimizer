@@ -48,6 +48,7 @@
       , "*://www.shipmentmanager.com/printweblabel.aspx"
       , "*://*.returnsaver.com/returnlabel/*abel*"
       , "*://www.ups.com/u.a/L.class?*"
+      , "*://www.zappos.com/returnLabel?*"
     ]
 
   , "content_scripts"           : [
@@ -212,6 +213,18 @@
               , "modules/com_ups/css/pwm.css"
             ]
           , "run_at"            : "document_end"
+        }
+      , {
+            "matches" : [ "*://www.zappos.com/returnLabel?*" ]
+          , "js" : [
+                "global/js/pwm.js"
+              , "global/js/pwm-toggle.js"
+            ]
+          , "css" : [
+                "global/css/pwm.css"
+              , "modules/com_zappos/css/pwm.css"
+            ]
+          , "run_at" : "document_end"
         }
     ]
 
