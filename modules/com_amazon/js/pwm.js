@@ -6,10 +6,16 @@
   const $$elementsToShow = document.querySelectorAll( '#pageContentContainer img:not( [src*="loading"] ), #pageContentContainer table' );
 
   for ( let i = 0, l = $$elementsToShow.length; i < l; i++ ) {
-    const $$elementToWhitelist = $$elementsToShow[ i ].closest( '.a-section' );
+    let $$elementToWhitelist = $$elementsToShow[ i ].closest( '.a-section' );
 
-    if ( $$elementToWhitelist ) {
+    while ( $$elementToWhitelist ) {
+      if ( $$elementToWhitelist.id === 'pageContentContainer' ) {
+        break;
+      }
+
       $$elementToWhitelist.classList.add( 'pwmExtensionWhitelisted' );
+
+      $$elementToWhitelist = $$elementToWhitelist.parentElement;
     }
   }
 
