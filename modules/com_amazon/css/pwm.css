@@ -1,6 +1,7 @@
 .pwmExtensionActive #pageContentContainer h3,
 .pwmExtensionActive #pageContentContainer hr,
 .pwmExtensionActive #pageContentContainer .a-alert,
-.pwmExtensionActive #pageContentContainer > * > *:not( .pwmExtensionWhitelisted ) {
+.pwmExtensionActive #pageContentContainer > * > *:not( .pwmExtensionWhitelisted ),
+.pwmExtensionActive #pageContentContainer > * > * > *:not( .pwmExtensionWhitelisted ) {
   display: none !important;
 }

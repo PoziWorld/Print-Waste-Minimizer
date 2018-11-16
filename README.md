@@ -22,6 +22,7 @@ When printing return/shipping/postal labels on:
 ### Supported URL masks:
 
 * `*://*.amazon.com/returns/label/`
+* `*://*.amazon.com/spr/returns/label/`
 * `*://*.amazon.com/gp/rental/your-account/features/list-return-rentals/`
 * `*://*.ae.com/myaccount/order-history/return-label`
 * `*://*.ebay.*/rtn/*eturn/*tn*rint*hipping*abel*`

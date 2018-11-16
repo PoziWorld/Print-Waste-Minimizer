@@ -20,6 +20,7 @@
   "permissions": [
     "tabs",
     "*://*.amazon.com/returns/label/",
+    "*://*.amazon.com/spr/returns/label/",
     "*://*.amazon.com/gp/rental/your-account/features/list-return-rentals/",
     "*://*.ae.com/myaccount/order-history/return-label",
     "*://*.ebay.at/rtn/*eturn/*tn*rint*hipping*abel*",
@@ -54,7 +55,8 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.amazon.com/returns/label/*"
+        "*://*.amazon.com/returns/label/*",
+        "*://*.amazon.com/spr/returns/label/*"
       ],
       "js": [
         "global/js/pwm.js",
