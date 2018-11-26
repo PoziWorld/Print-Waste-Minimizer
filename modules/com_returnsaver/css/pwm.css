@@ -1,6 +1,6 @@
-  .pwmExtensionActive .visible-print-block
-, .pwmExtensionActive .col-sm-12 h4
-, .pwmExtensionActive .col-sm-12 .col-sm-10
-  {
-    display: none !important;
-  }
+.pwmExtensionActive .visible-print-block,
+.pwmExtensionActive .col-sm-12 h4,
+.pwmExtensionActive .col-sm-12 .col-sm-10,
+.pwmExtensionActive #SurveyTab {
+  display: none !important;
+}
