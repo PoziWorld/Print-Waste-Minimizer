@@ -43,6 +43,7 @@
     "*://*.ebay.ph/rtn/*eturn/*tn*rint*hipping*abel*",
     "*://*.ebay.pl/rtn/*eturn/*tn*rint*hipping*abel*",
     "*://*.pb.com/images/USPS/HTMLFolders/HTML10/",
+    "*://*.macys.com/my-orders/returns/*",
     "*://returnscenter.smartlabel.com/v3/*rint*eb*abel.aspx",
     "*://secure.nordstrom.com/*eturns*re*imple.aspx",
     "*://secure-oldnavy.gap.com/profile/returns_label*",
@@ -140,6 +141,21 @@
       "css": [
         "global/css/pwm.css",
         "modules/com_pb/css/pwm.css"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "matches": [
+        "*://*.macys.com/my-orders/returns/*"
+      ],
+      "js": [
+        "global/js/pwm.js",
+        "global/js/pwm-toggle.js",
+        "modules/com_macys/js/pwm.js"
+      ],
+      "css": [
+        "global/css/pwm.css",
+        "modules/com_macys/css/pwm.css"
       ],
       "run_at": "document_end"
     },
@@ -245,6 +261,7 @@
   ],
 
   "web_accessible_resources": [
-    "global/img/*.png"
+    "global/img/*.png",
+    "modules/*/js/push-state.js"
   ]
 }

@@ -12,6 +12,7 @@ When printing return/shipping/postal labels on:
 * Amazon (amazon.com)
 * American Eagle (ae.com)
 * eBay
+* Macy's
 * Newgistics SmartLabel
 * Nordstrom
 * Old Navy
@@ -27,6 +28,7 @@ When printing return/shipping/postal labels on:
 * `*://*.ae.com/myaccount/order-history/return-label`
 * `*://*.ebay.*/rtn/*eturn/*tn*rint*hipping*abel*`
 * `*://*.pb.com/images/USPS/HTMLFolders/HTML10/`
+* `*://*.macys.com/my-orders/returns/*`
 * `*://secure.nordstrom.com/*eturns*re*imple.aspx`
 * `*://returnscenter.smartlabel.com/v3/*rint*eb*abel.aspx`
 * `*://secure-oldnavy.gap.com/profile/returns_label*`

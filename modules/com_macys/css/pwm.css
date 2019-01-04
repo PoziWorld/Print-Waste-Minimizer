@@ -1,0 +1,22 @@
+body:not( .pwmTargetUrl )  #pwmExtensionToggleCta,
+.pwmExtensionActive.pwmTargetUrl #confirmation-container .print-header,
+.pwmExtensionActive.pwmTargetUrl #left-nav-container,
+.pwmExtensionActive.pwmTargetUrl #policy-links-container,
+.pwmExtensionActive.pwmTargetUrl #pros-container,
+.pwmExtensionActive.pwmTargetUrl #stayconnected,
+.pwmExtensionActive.pwmTargetUrl #confirmation-container h3,
+.pwmExtensionActive.pwmTargetUrl #confirmation-container h3:first-child + ul,
+.pwmExtensionActive.pwmTargetUrl #confirmation-container .print-slip-header,
+.pwmExtensionActive.pwmTargetUrl #confirmation-container .return-slip {
+  display: none !important;
+}
+
+.pwmExtensionActive.pwmTargetUrl #confirmation-container #return-confirmation-mrl {
+  page-break-after: initial !important;
+}
+
+.pwmExtensionActive.pwmTargetUrl #confirmation-container .return-label-container {
+  padding: 0 0 30px !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
