@@ -18,7 +18,6 @@
   },
 
   "permissions": [
-    "tabs",
     "*://*.amazon.com/returns/label/",
     "*://*.amazon.com/spr/returns/label/",
     "*://*.amazon.com/gp/rental/your-account/features/list-return-rentals/",
